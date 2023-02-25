@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.form-component {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container {
+  padding: 50px;
+}
+.name {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: 500px;
+}
+.comment {
+  margin-top: 5px;
+  padding: 6px;
+  width: 500px;
+}
+.button {
+  background-color: #0284c7;
+  color: #ffffff;
+  width: 130px;
+  border: none;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.horizontal {
+  color: #334155;
+}
+.comments-count {
+  background-color: #0284c7;
+  color: #ffffff;
+  padding: 3px;
+  border-radius: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.comments-counter {
+  display: flex;
+  align-items: center;
+}
+.list-comments {
+  list-style-type: none;
+}
